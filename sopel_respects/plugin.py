@@ -1,9 +1,5 @@
-"""
-Authors: xnaas <me@xnaas.info> (2022-2023)
-License: The Unlicense (public domain)
-"""
+# source: https://git.actionsack.com/xnaas/sopel-respects
 from sopel import plugin
-
 
 @plugin.rule(r"^[F𝔽]$")
 def pay_respects(bot, trigger):
